@@ -1,4 +1,5 @@
 Proteomics MS/MS Spectrum Annotator
+
 A Python command-line tool for visualising and annotating peptide fragmentation spectra from mzXML mass spectrometry files. Given a scan number and peptide sequence, the program computes theoretical b-ion and y-ion m/z values, matches them to observed peaks in the spectrum, and produces an annotated plot to assess whether the peptide is a good match to the spectrum.
 
 Overview
@@ -26,7 +27,7 @@ Arguments
 ArgumentDescriptionmzXML_filePath to the mzXML input filescan_numberScan number to extract from the mzXML filepeptide_sequencePeptide sequence in single-letter amino acid code (e.g. PEPTIDE)
 
 Example
-bashpython annotator.py sample.mzXML 1042 PEPTIDE
+bashpython MS_Visualization_Script.py sample.mzXML 1042 PEPTIDE
 
 How It Works
 1. Parsing the mzXML file
