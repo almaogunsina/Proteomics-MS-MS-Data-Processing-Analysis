@@ -3,6 +3,7 @@ Proteomics MS/MS Spectrum Annotator
 A Python command-line tool for visualising and annotating peptide fragmentation spectra from mzXML mass spectrometry files. Given a scan number and peptide sequence, the program computes theoretical b-ion and y-ion m/z values, matches them to observed peaks in the spectrum, and produces an annotated plot to assess whether the peptide is a good match to the spectrum.
 
 Overview
+
 Tandem mass spectrometry (MS/MS) generates fragmentation spectra that can be used to identify peptides. This tool automates the process of:
 
 Parsing an mzXML file to extract peak data for a given scan
